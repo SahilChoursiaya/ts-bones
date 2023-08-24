@@ -1,0 +1,34 @@
+# really good repo of reference https://github.com/garygitton/dockerignore
+
+# Node
+## Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+## Dependency directories
+node_modules/
+
+# git
+.git
+.gitattributes
+.gitignore
+
+# Common
+README.md
+CHANGELOG.md
+docker-compose.yml
+Dockerfile
+
+# Personal addition
+.husky
+.vscode
+.dockerignore
+.editorconfig
+.eslinignore
+.eslintrc.json
+docker-compose.yml
+Dockerfile
+Makefile
